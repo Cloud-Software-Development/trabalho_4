@@ -30,9 +30,3 @@ $ cd trabalho_4
 ```bash
 $ docker run -it --rm -v $(realpath ./):/home/jovyan/work -p 8888:8888 jupyter/pyspark-notebook
 ```
-
-## Finalizando o projeto:
-
-```bash
-$ docker-compose down
-```
